@@ -1,0 +1,46 @@
+#generalslider{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    overflow: hidden;
+    width: 300px;
+}
+ul {
+    margin: 0;
+}
+ul li{
+    list-style-type: none;
+    margin: 0;
+}
+.sliders{
+    width: 1200px;
+    height: 200px;
+    display: block;
+    transition: all 0.5s;
+  
+}
+
+.slide{
+    width: 300px;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+
+    
+}
+.point{
+    width: 10px;
+    height: 10px;
+  border:1px solid black;
+  display:inline-block;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.active{
+    width:15px;
+    height: 15px;
+    background: green;
+}
+
+    
