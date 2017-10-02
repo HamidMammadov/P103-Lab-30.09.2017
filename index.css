@@ -17,6 +17,7 @@ ul li{
     height: 200px;
     display: block;
     transition: all 0.5s;
+    padding: 0;
   
 }
 
